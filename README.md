@@ -26,7 +26,7 @@ Before starting, please fork the repository AirBnB_clone_v2 from your partner if
 ## Resources
 Read or watch:
 
-How to use Fabric
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-fabric-to-automate-administration-tasks-and-deployments">How to use Fabric</a></li>
 How to use Fabric in Python
 Fabric and command line options
 CI/CD concept page
