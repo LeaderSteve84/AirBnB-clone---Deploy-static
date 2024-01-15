@@ -29,10 +29,12 @@ Read or watch:
 <li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-fabric-to-automate-administration-tasks-and-deployments">How to use Fabric</a></li>
 <li><a href="https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python">How to use Fabric in Python</a></li>
 <li><a href="https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python">Fabric and command line options</a></li>
+
 CI/CD Concept Page
 <li><a href="https://agilemanifesto.org/principles.html">Twelve Principles of Agile Software</a></li>
 <li><a href="https://digital.ai/catalyst-blog/walk-before-you-run-understanding-ci-in-cd/">CI/CD (Continuous Integration/Continuous Deployment)</a></li>
-      
+
+More Resources     
 <li><a href="http://nginx.org/en/docs/beginners_guide.html">Nginx configuration for beginners</a></li>
 <li><a href="https://blog.heitorsilva.com/en/nginx/diferenca-entre-root-e-alias-do-nginx/">Difference between root and alias on NGINX</a></li>
 <li><a href="https://github.com/mathiasertl/fabric">Fabric for Python 3</a></li>
@@ -57,7 +59,7 @@ You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
 #### Requirements
-Python Scripts
+<p>Python Scripts
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.0)
 All your files should end with a new line
@@ -78,6 +80,7 @@ All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.3-1~ubuntu20.04.1 via apt-get) without any errors
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
+<P>
 More Info
 
 Install Fabric for Python 3 - version 1.14.post1
