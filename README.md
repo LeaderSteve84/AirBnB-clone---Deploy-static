@@ -44,6 +44,7 @@ Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 #### General
+
 What is Fabric
 How to deploy code to a server easily
 What is a tgz archive
@@ -59,7 +60,8 @@ You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
 #### Requirements
-<p>Python Scripts
+
+Python Scripts
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.0)
 All your files should end with a new line
@@ -80,7 +82,8 @@ All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.3-1~ubuntu20.04.1 via apt-get) without any errors
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
-<P>
+
+
 More Info
 
 Install Fabric for Python 3 - version 1.14.post1
@@ -109,6 +112,7 @@ Great! You've completed the quiz successfully! Keep going! (Show quiz)
 
 ### 0. Prepare your web servers
 ##### mandatory
+
 Write a Bash script that sets up your web servers for the deployment of web_static. It must:
 
 Install Nginx if it not already installed
@@ -129,7 +133,6 @@ In optional, you will redo this task but by using Puppet
 
 ubuntu@89-web-01:~/$ sudo ./0-setup_web_static.sh
 ubuntu@89-web-01:~/$ echo $?
-0
 ubuntu@89-web-01:~/$ ls -l /data
 total 4
 drwxr-xr-x 1 ubuntu ubuntu     4096 Mar  7 05:17 web_static
@@ -157,6 +160,7 @@ ubuntu@89-web-01:~/$ curl localhost/hbnb_static/index.html
   </body>
 </html>
 ubuntu@89-web-01:~/$ 
+
 ##### Repo:
 
 GitHub repository: AirBnB_clone_v2
@@ -164,6 +168,7 @@ File: 0-setup_web_static.sh
     
 ### 1. Compress before sending
 ##### mandatory
+
 Write a Fabric script that generates a .tgz archive from the contents of the web_static folder of your AirBnB Clone repo, using the function do_pack.
 
 Prototype: def do_pack():
@@ -221,13 +226,15 @@ Done.
 guillaume@ubuntu:~/AirBnB_clone_v2$ ls -l versions/web_static_20170314233357.tgz
 -rw-rw-r-- 1 guillaume guillaume 21283 Mar 14 23:33 versions/web_static_20170314233357.tgz
 guillaume@ubuntu:~/AirBnB_clone_v2$
-Repo:
+
+##### Repo:
 
 GitHub repository: AirBnB_clone_v2
 File: 1-pack_web_static.py
     
 ### 2. Deploy archive!
 ##### mandatory
+
 Write a Fabric script (based on the file 1-pack_web_static.py) that distributes an archive to your web servers, using the function do_deploy:
 
 Prototype: def do_deploy(archive_path):
@@ -288,6 +295,7 @@ guillaume@ubuntu:~/AirBnB_clone_v2$ curl 54.157.32.137/hbnb_static/0-index.html
     </body>
 </html>
 guillaume@ubuntu:~/AirBnB_clone_v2$ 
+
 ##### Repo:
 
 GitHub repository: AirBnB_clone_v2
@@ -295,6 +303,7 @@ File: 2-do_deploy_web_static.py
     
 ### 3. Full deployment
 ##### mandatory
+
 Write a Fabric script (based on the file 2-do_deploy_web_static.py) that creates and distributes an archive to your web servers, using the function deploy:
 
 Prototype: def deploy():
@@ -401,7 +410,7 @@ File: 3-deploy_web_static.py
      
 ### 4. Keep it clean!
 #### #advanced
-Score: 39.0% (Checks completed: 60.0%)
+
 Write a Fabric script (based on the file 3-deploy_web_static.py) that deletes out-of-date archives, using the function do_clean:
 
 Prototype: def do_clean(number=0):
@@ -433,6 +442,7 @@ File: 100-clean_web_static.py
      
 ### 5. Puppet for setup
 ##### advanced
+
 Redo the task #0 but by using Puppet:
 
 ubuntu@89-web-01:~/$ puppet apply 101-setup_web_static.pp
@@ -473,5 +483,3 @@ ubuntu@89-web-01:~/$
 
 GitHub repository: AirBnB_clone_v2
 File: 101-setup_web_static.pp
-    
-
