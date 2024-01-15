@@ -27,13 +27,17 @@ Before starting, please fork the repository AirBnB_clone_v2 from your partner if
 Read or watch:
 
 <li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-fabric-to-automate-administration-tasks-and-deployments">How to use Fabric</a></li>
-How to use Fabric in Python
-Fabric and command line options
-CI/CD concept page
-Nginx configuration for beginners
-Difference between root and alias on NGINX
-Fabric for Python 3
-Fabric Documentation
+<li><a href="https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python">How to use Fabric in Python</a></li>
+<li><a href="https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python">Fabric and command line options</a></li>
+CI/CD Concept Page
+<li><a href="https://agilemanifesto.org/principles.html">Twelve Principles of Agile Software</a></li>
+<li><a href="https://digital.ai/catalyst-blog/walk-before-you-run-understanding-ci-in-cd/">CI/CD (Continuous Integration/Continuous Deployment)</a></li>
+      
+<li><a href="http://nginx.org/en/docs/beginners_guide.html">Nginx configuration for beginners</a></li>
+<li><a href="https://blog.heitorsilva.com/en/nginx/diferenca-entre-root-e-alias-do-nginx/">Difference between root and alias on NGINX</a></li>
+<li><a href="https://github.com/mathiasertl/fabric">Fabric for Python 3</a></li>
+<li><a href="https://www.fabfile.org/">Fabric Documentation</a></li>
+
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
