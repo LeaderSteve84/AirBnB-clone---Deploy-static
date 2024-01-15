@@ -127,7 +127,7 @@ Create a symbolic link /data/web_static/current linked to the /data/web_static/r
 Give ownership of the /data/ folder to the ubuntu user AND group (you can assume this user and group exist). This should be recursive; everything inside should be created/owned by this user/group.
 Update the Nginx configuration to serve the content of /data/web_static/current/ to hbnb_static (ex: https://mydomainname.tech/hbnb_static). Don’t forget to restart Nginx after updating the configuration:
 Use alias inside your Nginx configuration.
-<li><a href="stackoverflow.com/questions/10631933/nginx-static-file-serving-confusion-with-root-alias">Tip</a></li>
+<a href="stackoverflow.com/questions/10631933/nginx-static-file-serving-confusion-with-root-alias">Tip</a>
 Your program should always exit successfully. Don’t forget to run your script on both of your web servers.
 
 In optional, you will redo this task but by using Puppet
@@ -170,7 +170,7 @@ File: 0-setup_web_static.sh
 ### 1. Compress before sending
 ##### mandatory
 
-Write a Fabric script that generates a .tgz archive from the contents of the web_static folder of your AirBnB Clone repo, using the function do_pack.
+Write a Fabric script that generates a <a href="https://en.wikipedia.org/wiki/Tar_%28computing%29">.tgz</a> archive from the contents of the web_static folder of your AirBnB Clone repo, using the function do_pack.
 
 Prototype: def do_pack():
 All files in the folder web_static must be added to the final archive
