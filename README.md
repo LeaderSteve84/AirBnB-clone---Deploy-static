@@ -126,8 +126,8 @@ Create a fake HTML file /data/web_static/releases/test/index.html (with simple c
 Create a symbolic link /data/web_static/current linked to the /data/web_static/releases/test/ folder. If the symbolic link already exists, it should be deleted and recreated every time the script is ran.
 Give ownership of the /data/ folder to the ubuntu user AND group (you can assume this user and group exist). This should be recursive; everything inside should be created/owned by this user/group.
 Update the Nginx configuration to serve the content of /data/web_static/current/ to hbnb_static (ex: https://mydomainname.tech/hbnb_static). Don’t forget to restart Nginx after updating the configuration:
-Use alias inside your Nginx configuration
-Tip
+Use alias inside your Nginx configuration.
+<li><a href="stackoverflow.com/questions/10631933/nginx-static-file-serving-confusion-with-root-alias">Tip</a></li>
 Your program should always exit successfully. Don’t forget to run your script on both of your web servers.
 
 In optional, you will redo this task but by using Puppet
