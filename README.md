@@ -84,9 +84,10 @@ The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
 
 
-More Info
+## More Info
 
-Install Fabric for Python 3 - version 1.14.post1
+### Install Fabric for Python 3 - version 1.14.post1
+
 $ pip3 uninstall Fabric
 $ sudo apt-get install libffi-dev
 $ sudo apt-get install libssl-dev
@@ -108,7 +109,7 @@ Deploy static files with Fabric
 Quiz questions
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
 
-##Tasks
+## Tasks
 
 ### 0. Prepare your web servers
 ##### mandatory
